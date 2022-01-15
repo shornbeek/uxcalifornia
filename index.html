@@ -13,7 +13,7 @@ html, body {
 }
 body {
 	margin: 0;
-	background: linear-gradient(#ffffff, #eaeaf0);
+	background: linear-gradient(#ffffff, #ffffff);
 }
 
 h1 {
@@ -84,7 +84,11 @@ a:hover:after{
 }
 
 img {
-    max-width: 80%;
+    max-width: 100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 * {
@@ -237,6 +241,35 @@ body {
 .navbar.transparent.navbar-inverse .navbar-inner {
    background: rgba(0,0,0,0.4);
 }
+
+.himom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: medium;
+  }
+
+  img {
+   max-width: 150%;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  
+}
+
+
+
     </style>
 </head>
 
@@ -259,12 +292,15 @@ body {
 
               
         
-     <center> <img src="https://i.ibb.co/BsVtn2W/uxpng.png" alt="uxpng" border="0"></a> </center>  
+    <img src="https://i.ibb.co/BsVtn2W/uxpng.png" alt="uxpng" border="0"></a>  
      <center><h1>Click here for a better user experance.</h1></center> 
 
      <center>   <div class="wrapper">
         <a href="#"><span>Learn more</span></a>
       </div></center> 
+
+      <img class="himom" src="https://www.icegif.com/wp-content/uploads/icegif-89.gif" alt="description of gif" /> 
+
 
 
 </body>
