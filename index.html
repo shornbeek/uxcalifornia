@@ -293,7 +293,18 @@ body {
     overflow: hidden;
 }
 
-@media only screen and (max-width: 750px) {
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
   h1 {
     font-size: 20px;
     display: none;
@@ -303,18 +314,7 @@ body {
  
  padding-top: 40px;
 }
-
-body {
-    transform: rotate(0deg);
-  }
-
-  /* button {
-      padding-left: 20%;
-      padding-right: 20%;
-  }
-   */
 }
-
 
     </style>
 </head>
