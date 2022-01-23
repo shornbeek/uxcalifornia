@@ -201,13 +201,13 @@ body {
 }
 
 
-/* *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   font-family: 'Oswald', sans-serif;
-} */
+}
 .wrapper{
   position: fixed;
   top: 0;
@@ -226,7 +226,6 @@ body {
   position: absolute;
   z-index: 2;
   right: 20px;
-  /* left: 20px; */
   top: 20px;
   height: 50px;
   width: 50px;
@@ -331,7 +330,7 @@ input[type="checkbox"]{
     width: 450px;
     left: 20%;
     right: 52%;
-    /* margin-left: -225px; */
+    margin-left: 0px;
     height: 40px;
     top: 50%;
     margin-top: -20px;
@@ -356,7 +355,7 @@ input[type="checkbox"]{
   .letter {
     display: inline-block;
     position: relative;
-    float: left;
+    /* float: left; */
     transform: translateZ(25px);
     transform-origin: 50% 50% 25px;
   }
