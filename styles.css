@@ -17,9 +17,9 @@ img {
   width: 100%;
 }
 
-/* .navbar.transparent.navbar-inverse .navbar-inner {
+.navbar.transparent.navbar-inverse .navbar-inner {
    background: rgba(0,0,0,0.4);
-} */
+}
 
 .himom {
   position: fixed;
@@ -168,7 +168,7 @@ img {
     z-index: -1;
     text-align: center;
     width: 100%;
-    color: #202020;
+    /* color: #202020; */
   }
   .content .title{
     font-size: 40px;
