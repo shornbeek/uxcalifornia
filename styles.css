@@ -291,4 +291,22 @@ img {
      color:red;
    }
 
+   /* .button-class {
+    color: rgb(255, 255, 255);
+    background-color: royalblue;
+    padding: 10px 10px 10px 10px;
+   } */
+
+   .button-class {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+   }
+
   
