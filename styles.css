@@ -309,4 +309,9 @@ img {
     border-radius: 8px;
    }
 
+   .example-element {
+    padding-right: 20px;
+    padding-left: 30px;
+  }
+
   
